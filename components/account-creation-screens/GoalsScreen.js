@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { View, Text, TextInput, Button, Picker } from 'react-native';
 
 const GoalsScreen = ({ navigation }) => {
