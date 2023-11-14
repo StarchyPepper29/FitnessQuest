@@ -1,0 +1,8 @@
+Tasks for 14/11:
+Finish form with submission
+Fields; 
+Screen 0: Welcome to Fitness Quest!
+Screen 1: Full Name, Nick, Age, Gender
+Screen 2: Height , Weight , A button that switches units, Activity Levels
+Screen 3: Set Goals, Sync MFP, Continue to App
+Screen 4: A Drop down with Goals, Weight Goal, Workout Time Possible
