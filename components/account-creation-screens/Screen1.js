@@ -47,7 +47,6 @@ const Screen1 = ({ navigation }) => {
               navigation.navigate('BioDataName');
             } else {
               // Show an alert or message to indicate required fields
-              Alert.alert('Please fill in all required fields.');
             }
           }}
           disabled={!isDataValid()} // Disable the button if data is not valid
@@ -55,5 +54,7 @@ const Screen1 = ({ navigation }) => {
       </View>
     );
 };
+
+const AWstyles = { flex: 1, alignItems: 'center', justifyContent: 'center' };
 
 export default Screen1;

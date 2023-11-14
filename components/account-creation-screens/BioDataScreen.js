@@ -44,5 +44,6 @@ const BioDataScreen = ({ navigation }) => {
       </View>
     );
 };
+const AWstyles = { flex: 1, alignItems: 'center', justifyContent: 'center' };
 
 export default BioDataScreen;

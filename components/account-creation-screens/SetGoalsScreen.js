@@ -32,4 +32,6 @@ const SetGoalsScreen = ({ navigation }) => {
       );
 };
 
+const AWstyles = { flex: 1, alignItems: 'center', justifyContent: 'center' };
+
 export default SetGoalsScreen;
