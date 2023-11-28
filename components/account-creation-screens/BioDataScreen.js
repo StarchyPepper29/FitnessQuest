@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Picker } from 'react-native';
 
-const BioDataScreen = ({ navigation }) => {
+const BioDataScreen = ({ navigation, route }) => {
     const [height, setHeight] = React.useState('');
     const [weight, setWeight] = React.useState('');
     const [activityLevel, setActivityLevel] = React.useState('');
@@ -37,8 +37,8 @@ const BioDataScreen = ({ navigation }) => {
         <Button
           title="NEXT TO GOALS"
           onPress={() => {
-            // Handle navigation or data processing here
-            navigation.navigate('ContinueName');
+            const combinedProps = { height, weight, activityLevel, ...route.params };
+            navigation.navigate('ContinueName', combinedProps);
           }}
         />
       </View>

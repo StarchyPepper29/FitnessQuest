@@ -41,16 +41,16 @@ const Screen1 = ({ navigation }) => {
         </Picker>
   
         <Button
-          title="NEXT TO Continue"
-          onPress={() => {
-            if (isDataValid()) {
-              navigation.navigate('BioDataName');
-            } else {
-              // Show an alert or message to indicate required fields
-            }
-          }}
-          disabled={!isDataValid()} // Disable the button if data is not valid
-        />
+        title="NEXT TO Continue"
+        onPress={() => {
+          if (isDataValid()) {
+            navigation.navigate('BioDataName', { name, nickname, age, gender }); // Pass props to the next screen
+          } else {
+            // Show an alert or message to indicate required fields
+          }
+        }}
+        disabled={!isDataValid()} // Disable the button if data is not valid
+      />
       </View>
     );
 };
