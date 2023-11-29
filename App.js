@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <AccountIndex/>
+    <LogIndex/>
   );
 };
 
