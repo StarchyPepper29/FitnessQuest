@@ -38,7 +38,7 @@ const BioDataScreen = ({ navigation, route }) => {
           title="NEXT TO GOALS"
           onPress={() => {
             const combinedProps = { height, weight, activityLevel, ...route.params };
-            navigation.navigate('ContinueName', combinedProps);
+            navigation.navigate('SetGoalsName', combinedProps);
           }}
         />
       </View>

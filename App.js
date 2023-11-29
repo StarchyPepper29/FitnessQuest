@@ -6,20 +6,13 @@ import Screen1 from './components/account-creation-screens/Screen1'; // Import y
 import BioDataScreen from './components/account-creation-screens/BioDataScreen';
 import SetGoalsScreen  from './components/account-creation-screens/SetGoalsScreen';
 import GoalsScreen from './components/account-creation-screens/GoalsScreen';
+import LogIndex from './components/Login2/Login-index';
+import AccountIndex from './components/account-creation-screens/Account-index';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="WelcomeName" component={HomeScreen} />
-        <Stack.Screen name="Screen1Name" component={Screen1} />
-        <Stack.Screen name="BioDataName" component={BioDataScreen} />
-        <Stack.Screen name="ContinueName" component={SetGoalsScreen} />
-        <Stack.Screen name="GoalsDataName" component={GoalsScreen} />
-      </Stack.Navigator>
-      
-    </NavigationContainer>
+    <AccountIndex/>
   );
 };
 
