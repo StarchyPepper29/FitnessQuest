@@ -9,7 +9,8 @@ const Screen1 = ({ navigation }) => {
   
     // Function to check if all fields are filled
     const isDataValid = () => {
-      return name.trim() !== '' && nickname.trim() !== '' && age.trim() !== '' && gender.trim() !== '';
+      // return name.trim() !== '' && nickname.trim() !== '' && age.trim() !== '' && gender.trim() !== '';
+      return true;
     };
   
     return (

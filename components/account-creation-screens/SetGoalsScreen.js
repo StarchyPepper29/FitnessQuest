@@ -33,6 +33,11 @@ const SetGoalsScreen = ({ navigation, route })  => {
             
             onPress={() => navigation.navigate('GoalsDataName',route.params)}
           />
+          <Button
+            title="Customize Character"
+            
+            onPress={() => navigation.navigate('CCName',route.params.gender)}
+          />
     
           <Button
             title="Save and Continue to App"

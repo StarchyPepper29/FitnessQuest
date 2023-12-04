@@ -7,6 +7,7 @@ import BioDataScreen from './BioDataScreen';
 import SetGoalsScreen from './SetGoalsScreen';
 import Screen1 from './Screen1';
 import GoalsScreen from './GoalsScreen';
+import CharacterCustomizerScreen from './CharacterCustomizerScreen'
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ const AccountIndex = () => (
       <Stack.Screen name="Screen1Name" component={Screen1} />
       <Stack.Screen name="BioDataName" component={BioDataScreen} />
       <Stack.Screen name="SetGoalsName" component={SetGoalsScreen} />
+      <Stack.Screen name="CCName" component={CharacterCustomizerScreen} />
       <Stack.Screen name="GoalsDataName" component={GoalsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
